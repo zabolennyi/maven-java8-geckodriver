@@ -11,7 +11,7 @@ RUN apt update && apt install \
 ENV JAVA_HOME /usr/lib/jvm/java-8-openjdk-amd64
 
 #Install GeckoDriver
-RUN wget https://github.com/mozilla/geckodriver/releases/download/v0.24.0/geckodriver-v0.24.0-linux64.tar.gz -O geckodriver.tar.gz
+RUN wget https://github.com/mozilla/geckodriver/releases/download/v0.26.0/geckodriver-v0.24.0-linux64.tar.gz -O geckodriver.tar.gz
 RUN tar xzvf geckodriver.tar.gz
 RUN rm geckodriver.tar.gz
 
